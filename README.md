@@ -101,18 +101,3 @@ Use the admin email/password from your `.env` (defaults: `admin@storerating.com`
 ## What's not yet done
 - Not deployed anywhere — runs locally only.
 - No automated test suite (unit/integration tests) — given the timeline, priority went to a complete, correct implementation of every required feature first.
-- Not yet pushed to a GitHub repository — see below.
-
-## Before you submit
-1. This code currently lives locally, not in your GitHub repo yet. Your linked repo (`team-task-manager`) has a name from a different project — you may want to either rename it or create a new repo (e.g. `store-rating-app`) for this submission, since a mismatched repo name may look confusing to the reviewer.
-2. Push it:
-   ```bash
-   cd store-rating-app
-   git init
-   git add .
-   git commit -m "Store Rating platform - FullStack Intern coding challenge"
-   git remote add origin <your-new-or-existing-repo-url>
-   git branch -M main
-   git push -u origin main
-   ```
-3. Test the full flow locally against a real Postgres instance before submitting — sign up as a normal user, log in as admin, add a store, rate it, check the store owner dashboard — to catch anything that only shows up with a live DB.
